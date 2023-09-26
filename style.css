@@ -205,6 +205,15 @@ main {
 .sponsors-img-container img {
     width: 165px;
 }
+ footer{
+    text-align: center;
+
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px;
+    margin: 20px;
+    
+    align-items: center;
+} 
 
 /* responsive media queries */
 /* mobile devices */
@@ -244,6 +253,7 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+    
 }
 
 /* tablet or medium devices */
@@ -258,4 +268,5 @@ main {
     .sponsors-img-container {
         flex-direction: column;
     }
+    
 }
